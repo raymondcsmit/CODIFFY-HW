@@ -1,0 +1,18 @@
+<div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">Screen Idle</h4>
+    <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+      <div class="modal-body">
+         {{idleState}}
+        <div class="row mrgbtm">
+          <div class="col-md-6">
+              <button type="button" (click)="logout()" class="btn btn-danger">Logout</button>
+          </div>
+          <div class="col-md-6">
+              <button type="button" (click)="stay()" class="btn btn-success">Stay</button>
+          </div>
+        </div>
+      </div>
+  

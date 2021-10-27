@@ -1,0 +1,9 @@
+
+Create generic control upload file
+    It will upload file and return id
+    It will upload multiple files check by attribute and return array of file id
+
+Upload Image
+    This component will display image, and upload it to api
+    This component will be able to display base64 images
+    
